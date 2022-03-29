@@ -1,0 +1,19 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: blue;
+    display: flex-row;
+    width: 100%;
+}
+th{
+    display: flex-row;
+    border: 1px solid black;
+}
+tr{
+   display: flex-row;
+   
+}
+td{
+    border:1px solid #28d676;
+    text-align: center;
+    }

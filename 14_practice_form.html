@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5">
+    <title>Facebook Sign Up form</title>
+    <style>
+        form {
+            background-color: rgb(165, 165, 205);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .Heading {
+            background-color: rgb(232, 232, 239);
+            padding: 5px;
+            border-radius: 3px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        
+        .buttonholder {
+            text-align: center;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        p {
+            text-align: center;
+        }
+        
+        .numberandpass {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Sign Up-->
+    <div class="Heading">
+        <h1>Sign Up</h1>
+        <p>It's quick and easy</p>
+    </div>
+    <hr>
+    <!--Form Section-->
+    <form action="">
+        <input type="text" name="firstname" id="firstname" placeholder="First Name" width="50%">
+        <input type="text" name="lastname " id="lastname" placeholder="Last Name" width="50%"><br>
+
+        <div class="numberandpass">
+            <input type="number" name="mobilenumber" id="mobilenumber" placeholder="Mobile number or email"><br>
+            <input type="password" name="password" id="password" placeholder="New Password"><br>
+        </div>
+
+
+        <label for="date">Birthday</label>
+        <input type="date" name="date" id="date" width="100%"><br>
+
+        <label for="gender">Gender</label><br>
+        <label for="female">Female</label>
+        <input type="radio" name="female" id="female" value="female">
+        <label for="male">Male</label>
+        <input type="radio" name="male" id="male" value="male">
+        <label for="custom">Custom</label>
+        <input type="radio" name="custom" id="custom" value="custom">
+    </form>
+    <!--Footer-->
+    <p>
+        By clicking Sign Up, you agree to our Terms. Learn how we collect, use and share your data in our Data Policy and how we use cookies and similar technology in our Cookies Policy. You may receive SMS Notifications from us and can opt out any time.
+    </p>
+    <!--Signup Button-->
+    <div class="buttonholder">
+        <button type="submit">Signup</button>
+    </div>
+
+
+</body>
+
+</html>
